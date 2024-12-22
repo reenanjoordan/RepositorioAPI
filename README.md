@@ -34,7 +34,7 @@ A API oferece os seguintes endpoints:
 
 # 1) Clonar o repositório
 
-git clone https://github.com/seu-usuario/repositorio-api.git
+https://github.com/reenanjoordan/RepositorioAPI.git
 
 # 2) Abrir o projeto no Visual Studio
 
