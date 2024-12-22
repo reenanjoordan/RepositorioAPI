@@ -2,7 +2,7 @@
 
 Este projeto implementa uma **API REST** para gerenciar repositórios, utilizando C# 12, Entity Framework Core com banco de dados em memória (InMemory) e Swagger para documentação. A API permite realizar operações como listar, cadastrar, atualizar e excluir repositórios, além de marcar repositórios como favoritos e listar repositórios favoritos.
 
-## Funcionalidades
+# Funcionalidades
 
 A API oferece os seguintes endpoints:
 
@@ -16,7 +16,7 @@ A API oferece os seguintes endpoints:
 - `POST /favoritar/{id}` - Marcar um repositório como favorito.
 - `GET /favoritos` - Listar todos os repositórios favoritos.
 
-## Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 - **C# 12**
 - **ASP.NET Core** (API REST)
@@ -25,14 +25,14 @@ A API oferece os seguintes endpoints:
 - **xUnit** (para testes unitários)
 - **Serilog** (opcional, para logs)
 
-## Requisitos
+# Requisitos
 
 - **.NET 7.0 ou superior**
 - **Visual Studio 2022 ou superior**
 
-## Como Rodar o Projeto
+# Como Rodar o Projeto
 
-### 1) Clonar o repositório
+# 1) Clonar o repositório
 
 git clone https://github.com/seu-usuario/repositorio-api.git
 
