@@ -54,22 +54,22 @@ https://localhost:7173/swagger/index.html
 
 O projeto está organizado nas seguintes pastas:
 
-Controllers: Contém os controladores da API, responsáveis pelas rotas e lógica de requisições HTTP.
+- Controllers: Contém os controladores da API, responsáveis pelas rotas e lógica de requisições HTTP.
 
-RepositorioController.cs: Controlador principal para gerenciar os repositórios.
+- RepositorioController.cs: Controlador principal para gerenciar os repositórios.
 Data: Contém o DbContext e configurações do banco de dados.
 
-AppDbContext.cs: Contexto de banco de dados usando Entity Framework Core com InMemory Database.
+- AppDbContext.cs: Contexto de banco de dados usando Entity Framework Core com InMemory Database.
 Models: Contém as classes de modelo de dados.
 
-Repositorio.cs: Modelo de dados para os repositórios.
+- Repositorio.cs: Modelo de dados para os repositórios.
 Services: Contém os serviços que podem implementar lógica de negócios.
 
-RepositorioService.cs: Serviço que contém a lógica de busca e manipulação de repositórios.
+- RepositorioService.cs: Serviço que contém a lógica de busca e manipulação de repositórios.
 Tests: Contém os testes unitários para a API e os serviços.
 
-RepositorioControllerTests.cs: Testes para o controlador de repositórios.
-RepositorioServiceTests.cs: Testes para o serviço de repositórios.
+- RepositorioControllerTests.cs: Testes para o controlador de repositórios.
+- RepositorioServiceTests.cs: Testes para o serviço de repositórios.
 
 # 6) Como Funciona
 
